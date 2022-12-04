@@ -59,7 +59,7 @@ public class ChooseAreaFragment extends Fragment {
 
     private Province selectedProvince;//选中的省份
     private City selectedCity;//选中的城市
-    private int currentLevel; //当前选中的级别
+    private int currentLevel; //当前选中级别
 
     public ChooseAreaFragment() {
         // Required empty public constructor
