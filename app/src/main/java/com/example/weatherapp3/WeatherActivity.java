@@ -109,7 +109,6 @@ public class WeatherActivity extends AppCompatActivity {
                 Log.d(TAG,"requestWeather: "+body);
                 Weather weather = Utility.handleWeatherResponse(body);
                 Log.d(TAG,"weather="+weather);
-                Log.d(TAG,"weather="+weather);
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
